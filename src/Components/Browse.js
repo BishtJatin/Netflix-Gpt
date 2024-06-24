@@ -9,13 +9,11 @@ useNowPlayingMovies();
   
 
   return (
-    <div >
+    <div className="">
       <Header />
     
-     <MainContainer />
-  
-          
-          <SecondaryContainer />
+     <MainContainer />     
+     <SecondaryContainer />
     </div>
   );
 };
