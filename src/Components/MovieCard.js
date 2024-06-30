@@ -6,11 +6,7 @@ const MovieCard = ({ posterPath, movieId, title, rate }) => {
   const dispatch = useDispatch();
   if (!posterPath) return null;
   const handleModalOpen = () => {
-    console.log({
-      movieId,
-      title,
-      rate,
-    });
+  
     dispatch(
       openOrCloseMovieModal({
         isOpen: true,
