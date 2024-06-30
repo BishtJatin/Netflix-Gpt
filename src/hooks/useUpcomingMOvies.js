@@ -26,4 +26,3 @@ const useUpcomingMOvies  = () => {
 export default useUpcomingMOvies ;
 
 
-

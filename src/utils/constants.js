@@ -8,7 +8,7 @@ export const API_OPTIONS =  {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: "Bearer" + process.env.REACT_APP_TMBD_KEY,
+    Authorization: "Bearer" + process.env.REACT_APP_TMBD_KEY  ,
   },
 };
 
@@ -25,4 +25,4 @@ export const BG_URL =
     { identifier: "spanish", name: "Spanish" },
   ];
   
-  export const AI_KEY = process.env.REACT_APP_AI_KEY;
+  export const AI_KEY =process.env.REACT_APP_AI_KEY;
