@@ -25,30 +25,19 @@ Getting Started
 To get started with the project, follow these steps:
 
 Clone the repository:
+git clone https://github.com/BishtJatin/Netflix-Gpt.git
 
-bash
-
-git clone https://github.com/yourusername/netflix-gpt.git
 Navigate to the project directory:
-
-bash
-
 cd netflix-gpt
+
 Install dependencies:
-
-bash
-
 npm install
+
 Create a .env file:
-
 Add your Firebase configuration and API keys for TMDb and GPT.
+
 Start the development server:
-
-bash
-
 npm start
+
 Build for production:
-
-bash
-
 npm run build
