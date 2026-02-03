@@ -19,7 +19,7 @@ const MovieDetail = ({ isOpen, onClose, movieId, title, rate }) => {
         );
         const trailer = filterData.length ? filterData[0] : data.results[0];
         setTrailer(trailer);
-      } catch (error) {}
+      } catch (error) { }
     };
     getMovieVideos();
   }, [movieId]);
@@ -52,19 +52,3 @@ const MovieDetail = ({ isOpen, onClose, movieId, title, rate }) => {
 };
 
 export default MovieDetail;
-
-{
-  /* <div className="  m-10">
-<button type="button">
-  <FontAwesomeIcon icon={faWindowClose} />
-</button>
-</div>
-
-<iframe
-className="w-full aspect-video"
-src={`https://www.youtube.com/embed/Ix0gJwrpexI?autoplay=1&mute=1`}
-title="YouTube video player"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowFullScreen
-/> */
-}
